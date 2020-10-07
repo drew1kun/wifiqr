@@ -3,6 +3,11 @@ Generate the printable PDF with QR Code and PSK for specified WIFI credentials
 
 [![BSD licensed][bsd-badge]][bsd-link]
 
+## Why?
+ - Because I care about security.
+ - Because I often change the password on my home guest network and want it still be quickly accessible for all the authorised guests.
+I simply print out the pdf and put it under the magnet on my fridge ;)
+
 ## What does it do?
 The tool takes the WiFi details (ESSID, Encryption type (WEP/WPA/WPA2) and the PSK) and generates the QR-code for easy
 user authentication.
