@@ -20,7 +20,7 @@ For example, run the following command:
 
 	./wifiqr.sh -o My_Wifi_5G WPA2 UnsecurePassword123
 
-Result will look this way:
+Result will look like this:
 ![QR Example](imgs/example.png)
 
 ## Dependencies
