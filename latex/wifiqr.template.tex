@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{pgffor}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\LaTeX}
+\fancyhead[RE,LO]{WiFi: ESSID}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\def\essid{ESSID}
+\def\psk{PSK}
+
+\begin{document}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\textwidth]{\essid/\essid.png}
+\end{figure}
+
+\centering{WiFi: ESSID}
+
+\centering{Passphrase: \psk}
+
+\end{document}
