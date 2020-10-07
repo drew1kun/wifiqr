@@ -10,6 +10,13 @@ If the passprase is not being specified, this tool will automatically generate t
 WPA/WPA2 encryption and 13 character passphrase for WEP encryption. It is generally advised against using WEP as it is
 considered unsecure, so avoid it if possible.
 
+For example, run the following command:
+
+	./wifiqr.sh -o My_Wifi_5G WPA2 UnsecurePassword123
+
+Result will look this way:
+![QR Example](imgs/example.png)
+
 ## Dependencies
 Depends on:
 
@@ -31,6 +38,10 @@ Install coreutils:
 ## Usage
 
 Do `./wifiqr.sh -h` or simply `./wifiqr.sh` for help
+
+Note: Try to avoid special symbols in the passwords as for now they are being incorrectly processed by latex.
+In order to make your network secure it is recommended to use WPA/WPA2 Encryption type along with the automatically generated 63
+character password (see -h).
 
 ## License
 

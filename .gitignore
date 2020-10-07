@@ -3,6 +3,8 @@
 
 # EXCEPT:
 !.gitignore
+!imgs/
+!imgs/example.png
 !latex
 !latex/wifiqr.template.tex
 !wifiqr.sh
