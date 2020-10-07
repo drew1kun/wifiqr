@@ -6,6 +6,7 @@ Generate the printable PDF with QR Code and PSK for specified WIFI credentials
 ## Why?
  - Because I care about security.
  - Because I often change the password on my home guest network and want it still be quickly accessible for all the authorised guests.
+
 I simply print out the pdf and put it under the magnet on my fridge ;)
 
 ## What does it do?
