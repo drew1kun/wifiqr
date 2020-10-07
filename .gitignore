@@ -1,0 +1,10 @@
+# Ignore EVERYTHING
+*
+
+# EXCEPT:
+!.gitignore
+!latex
+!latex/wifiqr.template.tex
+!wifiqr.sh
+!README.md
+!LICENSE
