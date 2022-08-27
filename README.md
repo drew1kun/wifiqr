@@ -35,11 +35,11 @@ MacOS: install dependencies with [Homebrew][homebrew]:
 
 Install mactex(pdflatex):
 
-	brew cask install mactex
+	brew install --cask mactex
 
 Install coreutils:
 
-	brew install coreutils qrencode pwgen
+	brew install coreutils gsed qrencode pwgen
 
 ## Usage
 
